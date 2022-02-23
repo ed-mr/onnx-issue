@@ -1,0 +1,1796 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="134.9375mm"
+   height="137.58333mm"
+   viewBox="0 0 134.9375 137.58333"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="keras_tf2onnx_keras2onnx.svg">
+  <defs
+     id="defs2">
+    <marker
+       style="fill:#000000"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="8"
+       markerUnits="strokeWidth"
+       refY="5"
+       refX="9"
+       viewBox="0 0 10 10"
+       id="arrowhead-vee">
+      <path
+         id="path12"
+         style="stroke-width:1px"
+         d="M 0,0 10,5 0,10 4,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="fill:#ee0000"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="8"
+       markerUnits="strokeWidth"
+       refY="5"
+       refX="9"
+       viewBox="0 0 10 10"
+       id="arrowhead-vee-select">
+      <path
+         id="path15"
+         style="stroke-width:1px"
+         d="M 0,0 10,5 0,10 4,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="fill:#000000"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="8"
+       markerUnits="strokeWidth"
+       refY="5"
+       refX="9"
+       viewBox="0 0 10 10"
+       id="arrowhead-vee-3">
+      <path
+         id="path344"
+         style="stroke-width:1px"
+         d="M 0,0 10,5 0,10 4,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="fill:#ee0000"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="8"
+       markerUnits="strokeWidth"
+       refY="5"
+       refX="9"
+       viewBox="0 0 10 10"
+       id="arrowhead-vee-select-5">
+      <path
+         id="path347"
+         style="stroke-width:1px"
+         d="M 0,0 10,5 0,10 4,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="fill:#000000"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="8"
+       markerUnits="strokeWidth"
+       refY="5"
+       refX="9"
+       viewBox="0 0 10 10"
+       id="arrowhead-vee-6">
+      <path
+         id="path555"
+         style="stroke-width:1px"
+         d="M 0,0 10,5 0,10 4,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="fill:#ee0000"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="8"
+       markerUnits="strokeWidth"
+       refY="5"
+       refX="9"
+       viewBox="0 0 10 10"
+       id="arrowhead-vee-select-1">
+      <path
+         id="path558"
+         style="stroke-width:1px"
+         d="M 0,0 10,5 0,10 4,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="fill:#000000"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="8"
+       markerUnits="strokeWidth"
+       refY="5"
+       refX="9"
+       viewBox="0 0 10 10"
+       id="arrowhead-vee-5">
+      <path
+         id="path940"
+         style="stroke-width:1px"
+         d="M 0,0 10,5 0,10 4,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="fill:#ee0000"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="8"
+       markerUnits="strokeWidth"
+       refY="5"
+       refX="9"
+       viewBox="0 0 10 10"
+       id="arrowhead-vee-select-9">
+      <path
+         id="path943"
+         style="stroke-width:1px"
+         d="M 0,0 10,5 0,10 4,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="fill:#000000"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="8"
+       markerUnits="strokeWidth"
+       refY="5"
+       refX="9"
+       viewBox="0 0 10 10"
+       id="arrowhead-vee-7">
+      <path
+         id="path1272"
+         style="stroke-width:1px"
+         d="M 0,0 10,5 0,10 4,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="fill:#ee0000"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="8"
+       markerUnits="strokeWidth"
+       refY="5"
+       refX="9"
+       viewBox="0 0 10 10"
+       id="arrowhead-vee-select-6">
+      <path
+         id="path1275"
+         style="stroke-width:1px"
+         d="M 0,0 10,5 0,10 4,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="fill:#000000"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="8"
+       markerUnits="strokeWidth"
+       refY="5"
+       refX="9"
+       viewBox="0 0 10 10"
+       id="arrowhead-vee-4">
+      <path
+         id="path1483"
+         style="stroke-width:1px"
+         d="M 0,0 10,5 0,10 4,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="fill:#ee0000"
+       orient="auto"
+       markerHeight="6"
+       markerWidth="8"
+       markerUnits="strokeWidth"
+       refY="5"
+       refX="9"
+       viewBox="0 0 10 10"
+       id="arrowhead-vee-select-3">
+      <path
+         id="path1486"
+         style="stroke-width:1px"
+         d="M 0,0 10,5 0,10 4,5 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="138.16924"
+     inkscape:cy="259.2543"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1848"
+     inkscape:window-height="1031"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1878"
+       originx="-10.583333"
+       originy="-63.499997" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-10.583332,-95.916672)">
+    <g
+       id="g551"
+       transform="matrix(0.20982945,0,0,0.20982945,21.347355,111.51038)">
+      <rect
+         height="288"
+         width="91"
+         pointer-events="all"
+         id="background-3"
+         x="0"
+         y="0"
+         style="fill:#ffffff" />
+      <g
+         transform="translate(4.1361,4.1361)"
+         id="origin-6">
+        <g
+           class="clusters"
+           id="clusters-7" />
+        <g
+           class="edge-paths"
+           id="edge-paths-5">
+          <defs
+             id="defs350">
+            <marker
+               style="fill:#000000"
+               orient="auto"
+               markerHeight="6"
+               markerWidth="8"
+               markerUnits="strokeWidth"
+               refY="5"
+               refX="9"
+               viewBox="0 0 10 10"
+               id="marker480">
+              <path
+                 id="path478"
+                 style="stroke-width:1px"
+                 d="M 0,0 10,5 0,10 4,5 Z"
+                 inkscape:connector-curvature="0" />
+            </marker>
+            <marker
+               style="fill:#ee0000"
+               orient="auto"
+               markerHeight="6"
+               markerWidth="8"
+               markerUnits="strokeWidth"
+               refY="5"
+               refX="9"
+               viewBox="0 0 10 10"
+               id="marker484">
+              <path
+                 id="path482"
+                 style="stroke-width:1px"
+                 d="M 0,0 10,5 0,10 4,5 Z"
+                 inkscape:connector-curvature="0" />
+            </marker>
+          </defs>
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-3)"
+             d="m 41.361,20.376835 v 1.666667 c 0,1.666666 0,5 0,8.333333 0,3.333333 0,6.666667 0,10 0,3.333333 0,6.666667 0,10 0,3.333333 0,6.666667 0,8.333333 v 1.666667"
+             class="edge-path"
+             id="edge-input"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-3)"
+             d="m 41.361,137.25301 v 1.66667 c 0,1.66666 0,5 0,8.33333 0,3.33333 0,6.66667 0,8.33333 v 1.66667"
+             class="edge-path"
+             id="edge-conv1d"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-3)"
+             d="m 41.361,177.62984 v 1.66667 c 0,1.66667 0,5 0,8.33333 0,3.33334 0,6.66667 0,8.33334 v 1.66666"
+             class="edge-path"
+             id="edge-flatten"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-3)"
+             d="m 41.361,239.06793 v 1.66667 c 0,1.66667 0,5 0,8.33333 0,3.33334 0,6.66667 0,8.33334 v 1.66666"
+             class="edge-path"
+             id="edge-dense-6"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           class="edge-labels"
+           id="edge-labels-2" />
+        <g
+           class="nodes"
+           id="nodes-9">
+          <g
+             transform="translate(41.361,98.814922)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-conv1d-1">
+            <g
+               id="g396"
+               transform="translate(-41.361,-38.438087)">
+              <g
+                 id="g364"
+                 class="node-item node-item-type node-item-type-layer">
+                <path
+                   id="path358"
+                   style="fill:#335588;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 72.722 a 5,5 0 0 1 5,5 V 20.376834 H 0 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text360"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Conv1D</text>
+                <title
+                   id="title362">conv1d</title>
+              </g>
+              <g
+                 id="g384"
+                 transform="translate(0,20.376834)"
+                 class="node-attribute">
+                <path
+                   id="path366"
+                   style="fill:#ffffff;stroke:#000000;stroke-width:0px"
+                   d="M 0,0 H 82.722 V 36.122501 H 0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   style="font-weight:normal;font-size:9px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.449"
+                   x="6"
+                   xml:space="preserve"
+                   id="initializer-conv1d/kernel:0-2"><title
+                     id="title368">float32[3,6,5]</title><tspan
+                     id="tspan370"
+                     style="font-weight:bold">kernel</tspan><tspan
+                     id="tspan372">〈3×6×5〉</tspan></text>
+                <text
+                   style="font-weight:normal;font-size:9px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="29.51025"
+                   x="6"
+                   xml:space="preserve"
+                   id="initializer-conv1d/bias:0-7"><title
+                     id="title375">float32[5]</title><tspan
+                     id="tspan377"
+                     style="font-weight:bold">bias</tspan><tspan
+                     id="tspan379">〈5〉</tspan></text>
+                <line
+                   id="line382"
+                   style="fill:none;stroke:#333333;stroke-width:1px"
+                   y2="0"
+                   y1="0"
+                   x2="82.722"
+                   x1="0"
+                   class="node" />
+              </g>
+              <g
+                 id="g390"
+                 transform="translate(0,56.499335)"
+                 class="node-item node-item-type node-item-type-activation">
+                <path
+                   id="path386"
+                   style="fill:#702921;stroke:#000000;stroke-width:0px"
+                   d="m 0,0 h 82.722 v 15.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text388"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">ReLU</text>
+              </g>
+              <line
+                 id="line392"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 y2="56.499336"
+                 y1="56.499336"
+                 x2="82.722"
+                 x1="0"
+                 class="node" />
+              <path
+                 id="path394"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 72.722 a 5,5 0 0 1 5,5 v 66.876169 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(41.361,167.44143)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-flatten-0">
+            <g
+               id="g409"
+               transform="translate(-24.9245,-10.188417)">
+              <g
+                 id="g405"
+                 class="node-item node-item-type node-item-type-shape">
+                <path
+                   id="path399"
+                   style="fill:#6c4f47;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 39.848999 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text401"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Flatten</text>
+                <title
+                   id="title403">flatten</title>
+              </g>
+              <path
+                 id="path407"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 39.848999 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(41.361,218.34889)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-dense-9">
+            <g
+               id="g435"
+               transform="translate(-38.822998,-20.719044)">
+              <g
+                 id="g418"
+                 class="node-item node-item-type node-item-type-layer">
+                <path
+                   id="path412"
+                   style="fill:#335588;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 67.645996 a 5,5 0 0 1 5,5 V 20.376834 H 0 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text414"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Dense</text>
+                <title
+                   id="title416">dense</title>
+              </g>
+              <g
+                 id="g431"
+                 transform="translate(0,20.376834)"
+                 class="node-attribute">
+                <path
+                   id="path420"
+                   style="fill:#ffffff;stroke:#000000;stroke-width:0px"
+                   d="m 0,0 h 77.645996 v 16.061251 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   style="font-weight:normal;font-size:9px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.449"
+                   x="6"
+                   xml:space="preserve"
+                   id="initializer-dense/kernel:0-3"><title
+                     id="title422">float32[40,2]</title><tspan
+                     id="tspan424"
+                     style="font-weight:bold">kernel</tspan><tspan
+                     id="tspan426">〈40×2〉</tspan></text>
+                <line
+                   id="line429"
+                   style="fill:none;stroke:#333333;stroke-width:1px"
+                   y2="0"
+                   y1="0"
+                   x2="77.645996"
+                   x1="0"
+                   class="node" />
+              </g>
+              <path
+                 id="path433"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 67.645996 a 5,5 0 0 1 5,5 v 31.438085 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(41.361,10.188417)"
+             style="opacity:1"
+             class="node graph-input"
+             id="input-name-input">
+            <g
+               id="g448"
+               transform="translate(-20.156,-10.188417)">
+              <g
+                 id="g444"
+                 class="node-item graph-item-input">
+                <path
+                   id="path438"
+                   style="fill:#eeeeee;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 30.312 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text440"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.287749"
+                   x="6">input</text>
+                <title
+                   id="title442">float32[1,10,6]</title>
+              </g>
+              <path
+                 id="path446"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 30.312 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             id="g461"
+             transform="translate(41.361,269.25635)"
+             style="opacity:1"
+             class="node">
+            <g
+               id="g459"
+               transform="translate(-21.998501,-10.188417)">
+              <g
+                 id="g455"
+                 class="node-item graph-item-output">
+                <path
+                   id="path451"
+                   style="fill:#eeeeee;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 33.997002 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text453"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.287749"
+                   x="6">dense</text>
+              </g>
+              <path
+                 id="path457"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 33.997002 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g936"
+       transform="matrix(0.20186692,0,0,0.20186692,65.620427,110.66078)">
+      <rect
+         height="579"
+         width="86"
+         pointer-events="all"
+         id="background-6"
+         x="0"
+         y="0"
+         style="fill:#ffffff" />
+      <g
+         transform="translate(3.8669998,3.8669998)"
+         id="origin-0">
+        <g
+           class="clusters"
+           id="clusters-6" />
+        <g
+           class="edge-paths"
+           id="edge-paths-2">
+          <defs
+             id="defs561">
+            <marker
+               style="fill:#000000"
+               orient="auto"
+               markerHeight="6"
+               markerWidth="8"
+               markerUnits="strokeWidth"
+               refY="5"
+               refX="9"
+               viewBox="0 0 10 10"
+               id="marker802">
+              <path
+                 id="path800"
+                 style="stroke-width:1px"
+                 d="M 0,0 10,5 0,10 4,5 Z"
+                 inkscape:connector-curvature="0" />
+            </marker>
+            <marker
+               style="fill:#ee0000"
+               orient="auto"
+               markerHeight="6"
+               markerWidth="8"
+               markerUnits="strokeWidth"
+               refY="5"
+               refX="9"
+               viewBox="0 0 10 10"
+               id="marker806">
+              <path
+                 id="path804"
+                 style="stroke-width:1px"
+                 d="M 0,0 10,5 0,10 4,5 Z"
+                 inkscape:connector-curvature="0" />
+            </marker>
+          </defs>
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-6)"
+             d="m 37.5,20.376835 v 1.666667 c 0,1.666666 0,5 0,10.104305 0,5.104306 0,11.979584 0,18.854861 0,6.875278 0,13.750556 0,18.854862 0,5.104305 0,8.437639 0,10.104305 v 1.666667"
+             class="edge-path"
+             id="edge-args_0"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-6)"
+             d="m 37.5,102.00534 v 1.66666 c 0,1.66667 0,5 0,8.33334 0,3.33333 0,6.66666 0,8.33333 v 1.66667"
+             class="edge-path"
+             id="edge-sequential/conv1d/conv1d/ExpandDims:0"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-6)"
+             d="m 37.5,142.38217 v 1.66667 c 0,1.66666 0,5 0,8.33333 0,3.33333 0,6.66667 0,8.33333 v 1.66667"
+             class="edge-path"
+             id="edge-sequential/conv1d/conv1d__6:0"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-6)"
+             d="m 37.5,203.82026 v 1.66667 c 0,1.66666 0,5 0,8.33333 0,3.33333 0,6.66667 0,8.33333 v 1.66667"
+             class="edge-path"
+             id="edge-sequential/conv1d/conv1d:0"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-6)"
+             d="m 37.5,244.19709 v 1.66667 c 0,1.66667 0,5 0,8.33333 0,3.33334 0,6.66667 0,8.33334 v 1.66666"
+             class="edge-path"
+             id="edge-sequential/conv1d/conv1d/Squeeze:0"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-6)"
+             d="m 37.5,305.63518 v 1.66667 c 0,1.66666 0,5 0,8.33333 0,3.33333 0,6.66667 0,8.33333 v 1.66667"
+             class="edge-path"
+             id="edge-sequential/conv1d/BiasAdd:0"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-6)"
+             d="m 37.5,346.01202 v 1.66666 c 0,1.66667 0,5 0,8.33334 0,3.33333 0,6.66666 0,8.33333 v 1.66667"
+             class="edge-path"
+             id="edge-sequential/conv1d/Relu:0"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-6)"
+             d="m 37.5,386.38885 v 1.66667 c 0,1.66666 0,5 0,8.33333 0,3.33333 0,6.66667 0,8.33333 v 1.66667"
+             class="edge-path"
+             id="edge-Transpose__14:0"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-6)"
+             d="m 37.5,447.82694 v 1.66667 c 0,1.66666 0,5 0,8.33333 0,3.33333 0,6.66667 0,8.33333 v 1.66667"
+             class="edge-path"
+             id="edge-sequential/flatten/Reshape:0"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-6)"
+             d="m 37.5,509.26503 v 3.43764 c 0,3.43763 0,10.31291 0,17.18819 0,6.87528 0,13.75056 0,17.18819 v 3.43764"
+             class="edge-path"
+             id="edge-dense-8"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           class="edge-labels"
+           id="edge-labels-7">
+          <g
+             transform="translate(59.42,51.002668)"
+             id="edge-label-edge-args_0"
+             class="edge-label"
+             style="opacity:1">
+            <g
+               id="g578"
+               transform="translate(-16.92,-5.6258335)">
+              <text
+                 id="text576"
+                 style="font-size:10px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'">
+                <tspan
+                   id="tspan574"
+                   x="1"
+                   dy="1em"
+                   xml:space="preserve">1×10×6</tspan>              </text>
+            </g>
+          </g>
+          <g
+             transform="translate(50.96,529.89086)"
+             id="edge-label-edge-dense-9"
+             class="edge-label"
+             style="opacity:1">
+            <g
+               id="g585"
+               transform="translate(-8.46,-5.6258335)">
+              <text
+                 id="text583"
+                 style="font-size:10px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'">
+                <tspan
+                   id="tspan581"
+                   x="1"
+                   dy="1em"
+                   xml:space="preserve">1×2</tspan>              </text>
+            </g>
+          </g>
+        </g>
+        <g
+           class="nodes"
+           id="nodes-2">
+          <g
+             transform="translate(37.5,91.816919)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-sequential/conv1d/conv1d/ExpandDims">
+            <g
+               id="g599"
+               transform="translate(-34.5,-10.188417)">
+              <g
+                 id="g595"
+                 class="node-item node-item-type node-item-type-transform">
+                <path
+                   id="path589"
+                   style="fill:#335544;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 59 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text591"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Unsqueeze</text>
+                <title
+                   id="title593">sequential/conv1d/conv1d/ExpandDims</title>
+              </g>
+              <path
+                 id="path597"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 59 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,132.19375)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-sequential/conv1d/conv1d__6">
+            <g
+               id="g612"
+               transform="translate(-32.503502,-10.188417)">
+              <g
+                 id="g608"
+                 class="node-item node-item-type node-item-type-transform">
+                <path
+                   id="path602"
+                   style="fill:#335544;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 55.007 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text604"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Transpose</text>
+                <title
+                   id="title606">sequential/conv1d/conv1d__6</title>
+              </g>
+              <path
+                 id="path610"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 55.007 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,183.10122)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-sequential/conv1d/conv1d">
+            <g
+               id="g638"
+               transform="translate(-37.5,-20.719044)">
+              <g
+                 id="g621"
+                 class="node-item node-item-type node-item-type-layer">
+                <path
+                   id="path615"
+                   style="fill:#335588;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 65 a 5,5 0 0 1 5,5 V 20.376834 H 0 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text617"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Conv</text>
+                <title
+                   id="title619">sequential/conv1d/conv1d</title>
+              </g>
+              <g
+                 id="g634"
+                 transform="translate(0,20.376834)"
+                 class="node-attribute">
+                <path
+                   id="path623"
+                   style="fill:#ffffff;stroke:#000000;stroke-width:0px"
+                   d="m 0,0 h 75 v 16.061251 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   style="font-weight:normal;font-size:9px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.449"
+                   x="6"
+                   xml:space="preserve"
+                   id="initializer-sequential/conv1d/conv1d/ExpandDims_1:0"><title
+                     id="title625">float32[5,6,1,3]</title><tspan
+                     id="tspan627"
+                     style="font-weight:bold">W</tspan><tspan
+                     id="tspan629">〈5×6×1×3〉</tspan></text>
+                <line
+                   id="line632"
+                   style="fill:none;stroke:#333333;stroke-width:1px"
+                   y2="0"
+                   y1="0"
+                   x2="75"
+                   x1="0"
+                   class="node" />
+              </g>
+              <path
+                 id="path636"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 65 a 5,5 0 0 1 5,5 v 31.438085 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,234.00868)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-sequential/conv1d/conv1d/Squeeze">
+            <g
+               id="g651"
+               transform="translate(-28.032,-10.188417)">
+              <g
+                 id="g647"
+                 class="node-item node-item-type node-item-type-transform">
+                <path
+                   id="path641"
+                   style="fill:#335544;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 46.063999 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text643"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Squeeze</text>
+                <title
+                   id="title645">sequential/conv1d/conv1d/Squeeze</title>
+              </g>
+              <path
+                 id="path649"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 46.063999 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,284.91614)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-sequential/conv1d/BiasAdd">
+            <g
+               id="g677"
+               transform="translate(-37.5,-20.719044)">
+              <g
+                 id="g660"
+                 class="node-item node-item-type">
+                <path
+                   id="path654"
+                   style="fill:#000000;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 65 a 5,5 0 0 1 5,5 V 20.376834 H 0 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text656"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Add</text>
+                <title
+                   id="title658">sequential/conv1d/BiasAdd</title>
+              </g>
+              <g
+                 id="g673"
+                 transform="translate(0,20.376834)"
+                 class="node-attribute">
+                <path
+                   id="path662"
+                   style="fill:#ffffff;stroke:#000000;stroke-width:0px"
+                   d="m 0,0 h 75 v 16.061251 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   style="font-weight:normal;font-size:9px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.449"
+                   x="6"
+                   xml:space="preserve"
+                   id="initializer-const_fold_opt__18"><title
+                     id="title664">float32[1,5,1]</title><tspan
+                     id="tspan666"
+                     style="font-weight:bold">B</tspan><tspan
+                     id="tspan668">〈1×5×1〉</tspan></text>
+                <line
+                   id="line671"
+                   style="fill:none;stroke:#333333;stroke-width:1px"
+                   y2="0"
+                   y1="0"
+                   x2="75"
+                   x1="0"
+                   class="node" />
+              </g>
+              <path
+                 id="path675"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 65 a 5,5 0 0 1 5,5 v 31.438085 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,335.8236)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-sequential/conv1d/Relu">
+            <g
+               id="g690"
+               transform="translate(-18.192501,-10.188417)">
+              <g
+                 id="g686"
+                 class="node-item node-item-type node-item-type-activation">
+                <path
+                   id="path680"
+                   style="fill:#702921;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 26.385 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text682"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Relu</text>
+                <title
+                   id="title684">sequential/conv1d/Relu</title>
+              </g>
+              <path
+                 id="path688"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 26.385 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,376.20043)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-Transpose__14">
+            <g
+               id="g703"
+               transform="translate(-32.503502,-10.188417)">
+              <g
+                 id="g699"
+                 class="node-item node-item-type node-item-type-transform">
+                <path
+                   id="path693"
+                   style="fill:#335544;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 55.007 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text695"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Transpose</text>
+                <title
+                   id="title697">Transpose__14</title>
+              </g>
+              <path
+                 id="path701"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 55.007 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,427.10789)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-sequential/flatten/Reshape">
+            <g
+               id="g729"
+               transform="translate(-37.5,-20.719044)">
+              <g
+                 id="g712"
+                 class="node-item node-item-type node-item-type-shape">
+                <path
+                   id="path706"
+                   style="fill:#6c4f47;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 65 a 5,5 0 0 1 5,5 V 20.376834 H 0 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text708"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Reshape</text>
+                <title
+                   id="title710">sequential/flatten/Reshape</title>
+              </g>
+              <g
+                 id="g725"
+                 transform="translate(0,20.376834)"
+                 class="node-attribute">
+                <path
+                   id="path714"
+                   style="fill:#ffffff;stroke:#000000;stroke-width:0px"
+                   d="m 0,0 h 75 v 16.061251 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   style="font-weight:normal;font-size:9px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.449"
+                   x="6"
+                   xml:space="preserve"
+                   id="initializer-const_fold_opt__17"><title
+                     id="title716">int64[2]</title><tspan
+                     id="tspan718"
+                     style="font-weight:bold">shape</tspan><tspan
+                     id="tspan720">〈2〉</tspan></text>
+                <line
+                   id="line723"
+                   style="fill:none;stroke:#333333;stroke-width:1px"
+                   y2="0"
+                   y1="0"
+                   x2="75"
+                   x1="0"
+                   class="node" />
+              </g>
+              <path
+                 id="path727"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 65 a 5,5 0 0 1 5,5 v 31.438085 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,488.54598)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-sequential/dense/MatMul">
+            <g
+               id="g755"
+               transform="translate(-37.5,-20.719044)">
+              <g
+                 id="g738"
+                 class="node-item node-item-type">
+                <path
+                   id="path732"
+                   style="fill:#000000;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 65 a 5,5 0 0 1 5,5 V 20.376834 H 0 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text734"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">MatMul</text>
+                <title
+                   id="title736">sequential/dense/MatMul</title>
+              </g>
+              <g
+                 id="g751"
+                 transform="translate(0,20.376834)"
+                 class="node-attribute">
+                <path
+                   id="path740"
+                   style="fill:#ffffff;stroke:#000000;stroke-width:0px"
+                   d="m 0,0 h 75 v 16.061251 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   style="font-weight:normal;font-size:9px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.449"
+                   x="6"
+                   xml:space="preserve"
+                   id="initializer-sequential/dense/MatMul/ReadVariableOp:0"><title
+                     id="title742">float32[40,2]</title><tspan
+                     id="tspan744"
+                     style="font-weight:bold">B</tspan><tspan
+                     id="tspan746">〈40×2〉</tspan></text>
+                <line
+                   id="line749"
+                   style="fill:none;stroke:#333333;stroke-width:1px"
+                   y2="0"
+                   y1="0"
+                   x2="75"
+                   x1="0"
+                   class="node" />
+              </g>
+              <path
+                 id="path753"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 65 a 5,5 0 0 1 5,5 v 31.438085 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,10.188417)"
+             style="opacity:1"
+             class="node graph-input"
+             id="input-name-args_0">
+            <g
+               id="g768"
+               transform="translate(-23.434,-10.188417)">
+              <g
+                 id="g764"
+                 class="node-item graph-item-input">
+                <path
+                   id="path758"
+                   style="fill:#eeeeee;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 36.868 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text760"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.287749"
+                   x="6">args_0</text>
+                <title
+                   id="title762">float32[1,10,6]</title>
+              </g>
+              <path
+                 id="path766"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 36.868 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             id="g783"
+             transform="translate(37.5,560.70511)"
+             style="opacity:1"
+             class="node">
+            <g
+               id="g781"
+               transform="translate(-21.998501,-10.188417)">
+              <g
+                 id="g777"
+                 class="node-item graph-item-output">
+                <path
+                   id="path771"
+                   style="fill:#eeeeee;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 33.997002 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text773"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.287749"
+                   x="6">dense</text>
+                <title
+                   id="title775">float32[1,2]</title>
+              </g>
+              <path
+                 id="path779"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 33.997002 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g1268"
+       transform="matrix(0.20186692,0,0,0.20186692,110.19897,112.00642)">
+      <rect
+         height="492"
+         width="86"
+         pointer-events="all"
+         id="background-0"
+         x="0"
+         y="0"
+         style="fill:#ffffff" />
+      <g
+         transform="translate(3.8669998,3.8669998)"
+         id="origin-2">
+        <g
+           class="clusters"
+           id="clusters-3" />
+        <g
+           class="edge-paths"
+           id="edge-paths-7">
+          <defs
+             id="defs946">
+            <marker
+               style="fill:#000000"
+               orient="auto"
+               markerHeight="6"
+               markerWidth="8"
+               markerUnits="strokeWidth"
+               refY="5"
+               refX="9"
+               viewBox="0 0 10 10"
+               id="marker1153">
+              <path
+                 id="path1151"
+                 style="stroke-width:1px"
+                 d="M 0,0 10,5 0,10 4,5 Z"
+                 inkscape:connector-curvature="0" />
+            </marker>
+            <marker
+               style="fill:#ee0000"
+               orient="auto"
+               markerHeight="6"
+               markerWidth="8"
+               markerUnits="strokeWidth"
+               refY="5"
+               refX="9"
+               viewBox="0 0 10 10"
+               id="marker1157">
+              <path
+                 id="path1155"
+                 style="stroke-width:1px"
+                 d="M 0,0 10,5 0,10 4,5 Z"
+                 inkscape:connector-curvature="0" />
+            </marker>
+          </defs>
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-5)"
+             d="m 37.5,20.376835 v 1.666667 c 0,1.666666 0,5 0,10.104305 0,5.104306 0,11.979584 0,18.854861 0,6.875278 0,13.750556 0,18.854862 0,5.104305 0,8.437639 0,10.104305 v 1.666667"
+             class="edge-path"
+             id="edge-input_1-2"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-5)"
+             d="m 37.5,102.00534 v 1.66666 c 0,1.66667 0,5 0,8.33334 0,3.33333 0,6.66666 0,8.33333 v 1.66667"
+             class="edge-path"
+             id="edge-adjusted_input-2"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-5)"
+             d="m 37.5,178.50467 v 1.66667 c 0,1.66667 0,5 0,8.33333 0,3.33334 0,6.66667 0,8.33334 v 1.66666"
+             class="edge-path"
+             id="edge-convolution_output-8"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-5)"
+             d="m 37.5,218.88151 v 1.66666 c 0,1.66667 0,5 0,8.33334 0,3.33333 0,6.66666 0,8.33333 v 1.66667"
+             class="edge-path"
+             id="edge-conv1d/Identity:0-9"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-5)"
+             d="m 37.5,259.25834 v 1.66667 c 0,1.66667 0,5 0,8.33333 0,3.33334 0,6.66667 0,8.33334 v 1.66666"
+             class="edge-path"
+             id="edge-push_transpose_out_0-7"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-5)"
+             d="m 37.5,299.63518 v 1.66666 c 0,1.66667 0,5 0,8.33334 0,3.33333 0,6.66666 0,8.33333 v 1.66667"
+             class="edge-path"
+             id="edge-flatten/Identity:0-3"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-5)"
+             d="m 37.5,361.07327 v 1.66666 c 0,1.66667 0,5 0,8.33334 0,3.33333 0,6.66666 0,8.33333 v 1.66667"
+             class="edge-path"
+             id="edge-dense0-6"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1px;marker-end:url(#arrowhead-vee-5)"
+             d="m 37.5,422.51135 v 3.43764 c 0,3.43764 0,10.31292 0,17.1882 0,6.87527 0,13.75055 0,17.18819 v 3.43764"
+             class="edge-path"
+             id="edge-dense-1"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           class="edge-labels"
+           id="edge-labels-29">
+          <g
+             transform="translate(59.42,51.002668)"
+             id="edge-label-edge-input_1-3"
+             class="edge-label"
+             style="opacity:1">
+            <g
+               id="g961"
+               transform="translate(-16.92,-5.6258335)">
+              <text
+                 id="text959"
+                 style="font-size:10px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'">
+                <tspan
+                   id="tspan957"
+                   x="1"
+                   dy="1em"
+                   xml:space="preserve">1×10×6</tspan>              </text>
+            </g>
+          </g>
+          <g
+             transform="translate(50.96,443.13719)"
+             id="edge-label-edge-dense-1"
+             class="edge-label"
+             style="opacity:1">
+            <g
+               id="g968"
+               transform="translate(-8.46,-5.6258335)">
+              <text
+                 id="text966"
+                 style="font-size:10px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'">
+                <tspan
+                   id="tspan964"
+                   x="1"
+                   dy="1em"
+                   xml:space="preserve">1×2</tspan>              </text>
+            </g>
+          </g>
+        </g>
+        <g
+           class="nodes"
+           id="nodes-94">
+          <g
+             transform="translate(37.5,91.816919)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-Transpose-7">
+            <g
+               id="g982"
+               transform="translate(-32.503502,-10.188417)">
+              <g
+                 id="g978"
+                 class="node-item node-item-type node-item-type-transform">
+                <path
+                   id="path972"
+                   style="fill:#335544;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 55.007 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text974"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Transpose</text>
+                <title
+                   id="title976">Transpose</title>
+              </g>
+              <path
+                 id="path980"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 55.007 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,150.255)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-conv1d-8">
+            <g
+               id="g1015"
+               transform="translate(-37.5,-28.249668)">
+              <g
+                 id="g991"
+                 class="node-item node-item-type node-item-type-layer">
+                <path
+                   id="path985"
+                   style="fill:#335588;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 65 a 5,5 0 0 1 5,5 V 20.376834 H 0 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text987"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Conv</text>
+                <title
+                   id="title989">conv1d</title>
+              </g>
+              <g
+                 id="g1011"
+                 transform="translate(0,20.376834)"
+                 class="node-attribute">
+                <path
+                   id="path993"
+                   style="fill:#ffffff;stroke:#000000;stroke-width:0px"
+                   d="m 0,0 h 75 v 31.122501 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   style="font-weight:normal;font-size:9px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.449"
+                   x="6"
+                   xml:space="preserve"
+                   id="initializer-conv1d/kernel:0-4"><title
+                     id="title995">float32[5,6,3]</title><tspan
+                     id="tspan997"
+                     style="font-weight:bold">W</tspan><tspan
+                     id="tspan999">〈5×6×3〉</tspan></text>
+                <text
+                   style="font-weight:normal;font-size:9px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="29.51025"
+                   x="6"
+                   xml:space="preserve"
+                   id="initializer-conv1d/bias:0-5"><title
+                     id="title1002">float32[5]</title><tspan
+                     id="tspan1004"
+                     style="font-weight:bold">B</tspan><tspan
+                     id="tspan1006">〈5〉</tspan></text>
+                <line
+                   id="line1009"
+                   style="fill:none;stroke:#333333;stroke-width:1px"
+                   y2="0"
+                   y1="0"
+                   x2="75"
+                   x1="0"
+                   class="node" />
+              </g>
+              <path
+                 id="path1013"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 65 a 5,5 0 0 1 5,5 v 46.499335 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,208.69309)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-Relu-0">
+            <g
+               id="g1028"
+               transform="translate(-18.192501,-10.188417)">
+              <g
+                 id="g1024"
+                 class="node-item node-item-type node-item-type-activation">
+                <path
+                   id="path1018"
+                   style="fill:#702921;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 26.385 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text1020"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Relu</text>
+                <title
+                   id="title1022">Relu</title>
+              </g>
+              <path
+                 id="path1026"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 26.385 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,249.06993)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-PushTranspose_0-3">
+            <g
+               id="g1041"
+               transform="translate(-32.503502,-10.188417)">
+              <g
+                 id="g1037"
+                 class="node-item node-item-type node-item-type-transform">
+                <path
+                   id="path1031"
+                   style="fill:#335544;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 55.007 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text1033"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Transpose</text>
+                <title
+                   id="title1035">PushTranspose_0</title>
+              </g>
+              <path
+                 id="path1039"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 55.007 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,289.44676)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-flatten-6">
+            <g
+               id="g1054"
+               transform="translate(-24.9245,-10.188417)">
+              <g
+                 id="g1050"
+                 class="node-item node-item-type node-item-type-shape">
+                <path
+                   id="path1044"
+                   style="fill:#6c4f47;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 39.848999 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text1046"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Flatten</text>
+                <title
+                   id="title1048">flatten</title>
+              </g>
+              <path
+                 id="path1052"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 39.848999 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,340.35422)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-dense-1">
+            <g
+               id="g1080"
+               transform="translate(-37.5,-20.719044)">
+              <g
+                 id="g1063"
+                 class="node-item node-item-type">
+                <path
+                   id="path1057"
+                   style="fill:#000000;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 65 a 5,5 0 0 1 5,5 V 20.376834 H 0 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text1059"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">MatMul</text>
+                <title
+                   id="title1061">dense</title>
+              </g>
+              <g
+                 id="g1076"
+                 transform="translate(0,20.376834)"
+                 class="node-attribute">
+                <path
+                   id="path1065"
+                   style="fill:#ffffff;stroke:#000000;stroke-width:0px"
+                   d="m 0,0 h 75 v 16.061251 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   style="font-weight:normal;font-size:9px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.449"
+                   x="6"
+                   xml:space="preserve"
+                   id="initializer-dense/kernel:0-0"><title
+                     id="title1067">float32[40,2]</title><tspan
+                     id="tspan1069"
+                     style="font-weight:bold">B</tspan><tspan
+                     id="tspan1071">〈40×2〉</tspan></text>
+                <line
+                   id="line1074"
+                   style="fill:none;stroke:#333333;stroke-width:1px"
+                   y2="0"
+                   y1="0"
+                   x2="75"
+                   x1="0"
+                   class="node" />
+              </g>
+              <path
+                 id="path1078"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 65 a 5,5 0 0 1 5,5 v 31.438085 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,401.79231)"
+             style="opacity:1"
+             class="node graph-node"
+             id="node-name-Add-6">
+            <g
+               id="g1106"
+               transform="translate(-37.5,-20.719044)">
+              <g
+                 id="g1089"
+                 class="node-item node-item-type">
+                <path
+                   id="path1083"
+                   style="fill:#000000;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 65 a 5,5 0 0 1 5,5 V 20.376834 H 0 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text1085"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC';fill:#ffffff"
+                   y="14.287749"
+                   x="6">Add</text>
+                <title
+                   id="title1087">Add</title>
+              </g>
+              <g
+                 id="g1102"
+                 transform="translate(0,20.376834)"
+                 class="node-attribute">
+                <path
+                   id="path1091"
+                   style="fill:#ffffff;stroke:#000000;stroke-width:0px"
+                   d="m 0,0 h 75 v 16.061251 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   style="font-weight:normal;font-size:9px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.449"
+                   x="6"
+                   xml:space="preserve"
+                   id="initializer-B-3"><title
+                     id="title1093">float32[2]</title><tspan
+                     id="tspan1095"
+                     style="font-weight:bold">B</tspan><tspan
+                     id="tspan1097">〈2〉</tspan></text>
+                <line
+                   id="line1100"
+                   style="fill:none;stroke:#333333;stroke-width:1px"
+                   y2="0"
+                   y1="0"
+                   x2="75"
+                   x1="0"
+                   class="node" />
+              </g>
+              <path
+                 id="path1104"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 65 a 5,5 0 0 1 5,5 v 31.438085 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             transform="translate(37.5,10.188417)"
+             style="opacity:1"
+             class="node graph-input"
+             id="input-name-input_1-2">
+            <g
+               id="g1119"
+               transform="translate(-25.963999,-10.188417)">
+              <g
+                 id="g1115"
+                 class="node-item graph-item-input">
+                <path
+                   id="path1109"
+                   style="fill:#eeeeee;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 41.927998 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text1111"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.287749"
+                   x="6">input_1</text>
+                <title
+                   id="title1113">float32[1,10,6]</title>
+              </g>
+              <path
+                 id="path1117"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 41.927998 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <g
+             id="g1134"
+             transform="translate(37.5,473.95144)"
+             style="opacity:1"
+             class="node">
+            <g
+               id="g1132"
+               transform="translate(-21.998501,-10.188417)">
+              <g
+                 id="g1128"
+                 class="node-item graph-item-output">
+                <path
+                   id="path1122"
+                   style="fill:#eeeeee;stroke:#000000;stroke-width:0px"
+                   d="m 5,0 h 33.997002 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                   inkscape:connector-curvature="0" />
+                <text
+                   id="text1124"
+                   style="font-size:11px;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', Ubuntu, 'Droid Sans', sans-serif, 'PingFang SC'"
+                   y="14.287749"
+                   x="6">dense</text>
+                <title
+                   id="title1126">float32[1,2]</title>
+              </g>
+              <path
+                 id="path1130"
+                 style="fill:none;stroke:#333333;stroke-width:1px"
+                 d="m 5,0 h 33.997002 a 5,5 0 0 1 5,5 v 10.376834 a 5,5 0 0 1 -5,5 H 5 a 5,5 0 0 1 -5,-5 V 5 A 5,5 0 0 1 5,0 Z"
+                 class="node border"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="19.209198"
+       y="106.43227"
+       id="text1868"><tspan
+         sodipodi:role="line"
+         id="tspan1866"
+         x="19.209198"
+         y="106.43227"
+         style="font-size:7.76111126px;stroke-width:0.26458332">Keras</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="58.409515"
+       y="106.26033"
+       id="text1872"><tspan
+         sodipodi:role="line"
+         id="tspan1870"
+         x="58.409515"
+         y="106.26033"
+         style="font-size:7.76111126px;stroke-width:0.26458332">tf2onnx</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="95.050751"
+       y="106.53689"
+       id="text1876"><tspan
+         sodipodi:role="line"
+         id="tspan1874"
+         x="95.050751"
+         y="106.53689"
+         style="font-size:7.76111126px;stroke-width:0.26458332">keras2onnx</tspan></text>
+    <rect
+       style="opacity:0.77999998;fill:none;fill-opacity:1;stroke:none;stroke-width:0.51010203;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1880"
+       width="134.9375"
+       height="137.58333"
+       x="10.583332"
+       y="95.916672"
+       rx="2.0816338"
+       ry="2.0000012" />
+  </g>
+</svg>
