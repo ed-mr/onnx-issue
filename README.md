@@ -75,3 +75,5 @@ But finally even that could not be resolved.
 Contact
 
 [tf2onnx](https://github.com/onnx/tensorflow-onnx)
+
+Issues Started [Keras - Conv1D conversions](https://github.com/onnx/tensorflow-onnx/issues/1865)
