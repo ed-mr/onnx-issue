@@ -76,4 +76,6 @@ Contact
 
 [tf2onnx](https://github.com/onnx/tensorflow-onnx)
 
-Issues Started [Keras - Conv1D conversions](https://github.com/onnx/tensorflow-onnx/issues/1865)
+- Issues Started [Keras - Conv1D conversions](https://github.com/onnx/tensorflow-onnx/issues/1865)
+- Issue [Convert NHWC/NCHW transpose as ONNX Local Function during export](https://github.com/onnx/tensorflow-onnx/issues/1910)
+- Q&A Started [Conv and KERAS storage_order does not match - is this right](https://github.com/onnx/onnx/discussions/4099)
