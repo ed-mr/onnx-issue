@@ -79,3 +79,4 @@ Contact
 - Issues Started [Keras - Conv1D conversions](https://github.com/onnx/tensorflow-onnx/issues/1865)
 - Issue [Convert NHWC/NCHW transpose as ONNX Local Function during export](https://github.com/onnx/tensorflow-onnx/issues/1910)
 - Q&A Started [Conv and KERAS storage_order does not match - is this right](https://github.com/onnx/onnx/discussions/4099)
+- TVM Discussion [ONNX operators with missing NHWC (storage_order) missing](https://discuss.tvm.apache.org/t/onnx-operators-with-missing-nhwc-storage-order-missing/12570)
